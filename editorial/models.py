@@ -11,4 +11,3 @@ class Editorial(models.Model):
         db_table = 'Editorial'
         verbose_name = 'Editorial'
         verbose_name_plural = 'Editoriales'
-        ordering = 'id'
