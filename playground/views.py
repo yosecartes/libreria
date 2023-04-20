@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def libro(request):
     return HttpResponse('Hello')
+
+def __str__(self):
+    return self.libro
