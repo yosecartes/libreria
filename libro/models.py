@@ -6,11 +6,10 @@ from django.db import models
 
 class Libro(models.Model):
     nombre = models.CharField(unique=True,null=False)
-    primera_edicio = models.IntegerField
+    primera_edicion = models.IntegerField
     numero_paginas = models.IntegerField
 
     class Meta:
         db_table = 'Book'
-        verbose_name = 'Autor'
-        verbose_name_plural = 'Autores'
-        ordering = 'id'
+        verbose_name = 'Libro'
+        verbose_name_plural = 'Libros'

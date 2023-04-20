@@ -11,4 +11,3 @@ class Autor(models.Model):
         db_table = 'Authors'
         verbose_name = 'Autor'
         verbose_name_plural = 'Autores'
-        ordering = 'id'
